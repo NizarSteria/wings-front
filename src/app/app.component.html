@@ -1,3 +1,17 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar class="extend-toolbar">
+  <span>
+    <a [routerLink]="['/']">
+      <img src="assets/images/BNP_Paribas-logo.png" aria-label="bnp" alt="Bnp">
+    </a>
+  </span>
+
+  <span class="flex"></span>
+
+ <span>
+    <a href="javascript:void(0);">Maps</a>
+    <a [routerLink]="['/users']">List</a>
+  </span>
+</md-toolbar>
+
+<router-outlet></router-outlet>
+<app-home></app-home>
