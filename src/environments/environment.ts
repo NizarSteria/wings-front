@@ -4,5 +4,14 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  //"http://jsonplaceholder.typicode.com/users";
+    backend: {
+        protocol: 'http',
+        host: 'jsonplaceholder.typicode.com',
+        port: '',
+        endpoints: {
+            allUsers: 'users'
+        }
+    }
 };

@@ -1,0 +1,17 @@
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  /*background-image: url('assets/images/shiba1.jpg');*/
+  background-size: cover;
+}
+.example-container {
+  width: 500px;
+}
+
+.example-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
