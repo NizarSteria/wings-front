@@ -16,10 +16,11 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav nav-pills navBarPadding">
         <li><a routerLink="users" routerLinkActive="active">Users</a></li>
         <li><a routerLink="posts" routerLinkActive="active">Posts</a></li>
         <li><a routerLink="about" routerLinkActive="active">About</a></li>
+        <li routerLinkActive="active" (click)="loginOrOut()"><a>{{ loginLogoutText }}</a></li>
         <li><a routerLink="test" routerLinkActive="active">Test Angular Material</a></li>
       </ul>
     </div>

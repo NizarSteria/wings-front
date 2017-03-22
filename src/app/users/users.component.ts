@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { UserService } from '../shared/users-service/index';
+import { UserService } from '../core/services';
 
 @Component({
 	selector: 'wings-users',

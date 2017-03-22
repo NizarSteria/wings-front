@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/index';
 import { UsersComponent, UserFormComponent } from './users/index';
-import { UserService } from './shared/users-service';
+import { UserService } from './core/services';
 // MATERIAL DESIGN MODULES
 import { MaterialModule } from '@angular/material';
 
@@ -16,6 +16,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PostsComponent } from './posts/posts.component';
 import { PreventUnsavedChangesGuard } from './prevent-unsaved-changes-guard.service';
 import { TestAngularMaterialComponent } from './test-angular-material/test-angular-material.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { TestAngularMaterialComponent } from './test-angular-material/test-angul
     UsersComponent,
     UserFormComponent,
     PostsComponent,
-    TestAngularMaterialComponent
+    TestAngularMaterialComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
